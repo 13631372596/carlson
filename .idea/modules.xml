@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/carlson.iml" filepath="$PROJECT_DIR$/carlson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-common/carlson-common.iml" filepath="$PROJECT_DIR$/carlson-common/carlson-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-service/carlson-demo-rpc-service.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-service/carlson-demo-rpc-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo-server/carlson-demo-server.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/carlson-demo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlsondemorpcservice.iml" filepath="$PROJECT_DIR$/carlson-demo/carlsondemorpcservice.iml" />
+    </modules>
+  </component>
+</project>
