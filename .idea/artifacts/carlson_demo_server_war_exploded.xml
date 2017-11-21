@@ -1,12 +1,30 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="carlson-demo-server:war exploded">
-    <output-path>$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="carlson-demo-server" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="carlson-demo-client-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="carlson-demo-client" />
+          </element>
+          <element id="archive" name="carlson-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="carlson-common" />
+          </element>
+          <element id="archive" name="carlson-demo-rpc-api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="carlson-demo-rpc-api" />
+          </element>
+          <element id="archive" name="carlson-demo-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="carlson-demo-dao" />
+          </element>
+          <element id="archive" name="carlson-demo-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="carlson-demo-common" />
+          </element>
+          <element id="archive" name="carlson-admin-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="carlson-admin" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.5.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.5.8.RELEASE" />
@@ -31,13 +49,20 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.12.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.12.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.5.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.23" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.23" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.23" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.23" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.12.3" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="carlson-demo-server/web/Web" />
     </root>

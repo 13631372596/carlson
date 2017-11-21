@@ -10,9 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.carlson</groupId>
-    <artifactId>carlsonde-demo-rpc-service</artifactId>
+    <artifactId>carlson-demo-rpc-service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.carlson</groupId>
+            <artifactId>carlson-demo-rpc-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

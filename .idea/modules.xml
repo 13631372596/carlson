@@ -3,11 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/carlson.iml" filepath="$PROJECT_DIR$/carlson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-admin/carlson-admin.iml" filepath="$PROJECT_DIR$/carlson-admin/carlson-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/carlson-common/carlson-common.iml" filepath="$PROJECT_DIR$/carlson-common/carlson-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo-client/carlson-demo-client.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo-client/carlson-demo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo-common/carlson-demo-common.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo-common/carlson-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo-dao/carlson-demo-dao.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo-dao/carlson-demo-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-api/carlson-demo-rpc-api.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-api/carlson-demo-rpc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-service/carlson-demo-rpc-service.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-service/carlson-demo-rpc-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlson-demo-server/carlson-demo-server.iml" filepath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/carlson-demo-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/carlson-demo/carlsondemorpcservice.iml" filepath="$PROJECT_DIR$/carlson-demo/carlsondemorpcservice.iml" />
     </modules>
   </component>
 </project>

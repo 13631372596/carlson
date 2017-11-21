@@ -6,18 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="carlson-admin" />
         <module name="carlson-common" />
+        <module name="carlson-demo-client" />
+        <module name="carlson-demo-common" />
+        <module name="carlson-demo-dao" />
+        <module name="carlson-demo-rpc-api" />
         <module name="carlson-demo-rpc-service" />
         <module name="carlson-demo-server" />
         <module name="carlsoncommon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="carlson" target="1.5" />
-      <module name="carlson-common" target="1.5" />
+      <module name="carlson" target="1.8" />
+      <module name="carlson-admin" target="1.8" />
+      <module name="carlson-common" target="1.8" />
       <module name="carlson-demo" target="1.6" />
+      <module name="carlson-demo-client" target="1.6" />
+      <module name="carlson-demo-common" target="1.6" />
+      <module name="carlson-demo-dao" target="1.6" />
+      <module name="carlson-demo-rpc-api" target="1.6" />
       <module name="carlson-demo-rpc-service" target="1.6" />
-      <module name="carlson-demo-server" target="1.8" />
+      <module name="carlson-demo-server" target="1.6" />
       <module name="carlson-demo-service" target="1.6" />
       <module name="carlsoncommon" target="1.5" />
       <module name="carlsondemorpcservice" target="1.6" />
