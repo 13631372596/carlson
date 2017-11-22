@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-server" />
+    <file type="web" url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-serverX" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/carlson-demo/carlson-demo-serverX/pom.xml" />
         <option value="$PROJECT_DIR$/carlson-demo/carlson-demo-service/pom.xml" />
       </set>
     </option>

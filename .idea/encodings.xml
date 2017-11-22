@@ -5,14 +5,12 @@
     <file url="file://$PROJECT_DIR$/carlson-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/carlson-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/carlson-demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/carlson-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-rpc-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/carlson-demo/carlson-demo-serverX" charset="UTF-8" />
   </component>
 </project>
