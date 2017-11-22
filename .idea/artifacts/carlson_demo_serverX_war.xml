@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="carlson-demo-serverX:war">
+    <output-path>$PROJECT_DIR$/carlson-demo/carlson-demo-serverX/target</output-path>
+    <root id="archive" name="carlson-demo-serverX-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="carlson-demo-serverX:war exploded" />
+    </root>
+  </artifact>
+</component>

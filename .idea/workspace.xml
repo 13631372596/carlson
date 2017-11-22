@@ -2,22 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2686250-806b-45b8-af86-bc198d95d56f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT.war.original" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT.war.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT/WEB-INF/classes/com/carlson/demo/server/application/DemoApplication.class" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT/WEB-INF/classes/com/carlson/demo/server/application/DemoApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT/WEB-INF/classes/com/carlson/demo/server/controller/DemoController.class" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/carlson-demo-server-1.0-SNAPSHOT/WEB-INF/classes/com/carlson/demo/server/controller/DemoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/classes/com/carlson/demo/server/application/DemoApplication.class" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/classes/com/carlson/demo/server/application/DemoApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/classes/com/carlson/demo/server/controller/DemoController.class" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/classes/com/carlson/demo/server/controller/DemoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/carlson_demo_server_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/carlson_demo_server_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/carlson_demo_serverX_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/carlson_demo_serverX_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/js/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/angular/angular-1.5.8/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/angular/angular-1.5.8/angular-aria.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/angular/angular-1.5.8/angular-locale_zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/angular/angular-1.5.8/angular-messages.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/angular/angular-1.5.8/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/angular/angular-material-1.1.1/angular-material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/angular/angular-material-1.1.1/angular-material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/bootstrap-3.3.7/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-admin/src/plugins/jquery.1.12.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/WEB-INF/jsp/sso/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/js/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/angular/angular-1.5.8/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/angular/angular-1.5.8/angular-aria.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/angular/angular-1.5.8/angular-locale_zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/angular/angular-1.5.8/angular-messages.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/angular/angular-1.5.8/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/angular/angular-material-1.1.1/angular-material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/angular/angular-material-1.1.1/angular-material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/bootstrap-3.3.7/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/webapp/resources/carlson-admin/plugins/jquery.1.12.4.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/carlson-demo-server.iml" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/carlson-demo-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/pom.xml" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/java/com/carlson/demo/server/controller/DemoController.java" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/src/main/java/com/carlson/demo/server/controller/DemoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/carlson-demo/carlson-demo-server/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carlson-demo/pom.xml" afterPath="$PROJECT_DIR$/carlson-demo/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -653,7 +692,7 @@
       <workItem from="1511267354622" duration="6785000" />
       <workItem from="1511277647465" duration="1921000" />
       <workItem from="1511279597308" duration="4777000" />
-      <workItem from="1511350000629" duration="10477000" />
+      <workItem from="1511350000629" duration="10638000" />
     </task>
     <task id="LOCAL-00001" summary="update project base">
       <created>1511282007550</created>
@@ -669,11 +708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511282397630</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update project">
+      <created>1511367159635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511367159635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26865000" />
+    <option name="totallyTimeSpent" value="27026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,7 +776,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update project base" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project base" />
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -870,6 +917,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="63" column="108" lean-forward="false" selection-start-line="63" selection-start-column="108" selection-end-line="63" selection-end-column="108" />
+          <folding />
         </state>
       </provider>
     </entry>
