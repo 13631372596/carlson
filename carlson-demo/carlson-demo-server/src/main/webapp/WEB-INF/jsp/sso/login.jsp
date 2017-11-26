@@ -20,41 +20,38 @@
     <title>Demo系统</title>
 
 </head>
-<body ng-controller="LoginController">
+<body >
 <div class="container" style="position: relative;top: 40%;" align="center">
-    <form role="form">
+    <in role="form">
         <div class="form-group">
             <label for="usernameinput">Username</label>
-            <input type="" class="form-control" id="usernameinput" placeholder="Username" style="width: 30%" ng-model="saveUser.name">
+            <input type="" class="form-control" id="usernameinput" placeholder="Username" style="width: 30%" >
         </div>
         <div class="form-group">
             <label for="passwordinput">Password</label>
-            <input type="password" class="form-control" id="passwordinput" placeholder="Password" style="width: 30%" ng-model="saveUser.pswd">
+            <input type="password" class="form-control" id="passwordinput" placeholder="Password" style="width: 30%" >
         </div>
-     <button class="btn btn-default" ng-click="getUser()">Sign in</button>
+     <button class="btn btn-default" onclick="javascript:getUser();">Sign in</button>
      </form>
 </div>
 
 <script src="${basePath}/resources/carlson-admin/plugins/jquery.1.12.4.min.js"></script>
 <script src="${basePath}/resources/carlson-admin/plugins/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-<script src="${basePath}/resources/carlson-admin/plugins/angular/angular-1.5.8/angular.min.js"></script>
 <script>
     var BASE_PATH = '${basePath}';
-    function LoginController($scope, $http){
-        $scope.saveUser = {
-            name:"admin",
-            pswd:"admin"
-        };
-
-        $scope.getUser = function(){
-            $http({
-                method: "POST",
-                url: "http://localhost:8080/demo/test",
-                data: $scope.saveUser
-            }).success(function (data, status){
-                console.log(data);
-            })
-        };
+    function getUser(){
+    $.ajax({
+        url:BASE_PATH+"/demo/getDemoUserByNamePswd",
+        type:"POST",
+        dataType:"JSON",
+        data:{
+            username:$("#usernameinput").val(),
+            password:$("#passwordinput").val(),
+        },
+        success:function (result) {
+            console.log(result);
+        }
+    })
     }
 </script>
 </body>
