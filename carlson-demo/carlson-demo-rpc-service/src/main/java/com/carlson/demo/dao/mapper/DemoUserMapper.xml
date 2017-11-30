@@ -14,4 +14,9 @@
         <include refid="base_column"/>
         FROM tb_demo_user where username = #{username} AND password = #{password};
     </select>
+    <select id="getDemoUserByUsername" resultMap="baseResultMap" parameterType="java.lang.String" >
+        SELECT
+        <include refid="base_column"/>
+        FROM tb_demo_user where username = #{username};
+    </select>
 </mapper>

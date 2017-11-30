@@ -2,6 +2,9 @@ package com.carlson.demo.server.controller;
 
 import com.carlson.demo.dao.model.DemoUser;
 import com.carlson.demo.rpc.api.IDemoService;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,11 +24,11 @@ public class DemoController {
     @RequestMapping("/getDemoUserByNamePswd")
     @ResponseBody
     public String getDemoUserByNamePswd(String username,String password){
-        DemoUser demoUser = demoService.getDemoUserByNamePswd(username, password);
-        if(demoUser == null){
-            return "ERROR";
-        }
-        return "SUCCESS";
+        Subject subject = SecurityUtils.getSubject();
+        //DemoUser demoUser = demoService.getDemoUserByNamePswd(username, password);
+        UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username, password);
+        subject.login(usernamePasswordToken);
+        return "/WEB-INF/jsp/manage/index.jsp";
     }
 
     @RequestMapping("/test")

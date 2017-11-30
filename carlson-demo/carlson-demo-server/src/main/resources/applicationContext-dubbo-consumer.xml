@@ -17,4 +17,6 @@
     <!-- 系统 -->
     <dubbo:reference id="demoService" interface="com.carlson.demo.rpc.api.IDemoService"/>
 
+    <dubbo:reference id="demoAPIService" interface="com.carlson.demo.rpc.api.IDemoAPIService"/>
+
 </beans>

@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <c:set var="basePath" value="${pageContext.request.contextPath}"/>
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="zh-CN">
 <head>
     <style type="text/css">
@@ -22,14 +22,14 @@
 </head>
 <body >
 <div class="container" style="position: relative;top: 40%;" align="center">
-    <in role="form">
+    <form>
         <div class="form-group">
             <label for="usernameinput">Username</label>
-            <input type="" class="form-control" id="usernameinput" placeholder="Username" style="width: 30%" >
+            <input type="" class="form-control" id="usernameinput" placeholder="Username" style="width: 30%" value="admin">
         </div>
         <div class="form-group">
             <label for="passwordinput">Password</label>
-            <input type="password" class="form-control" id="passwordinput" placeholder="Password" style="width: 30%" >
+            <input type="" class="form-control" id="passwordinput" placeholder="Password" style="width: 30%" value="carlson">
         </div>
      <button class="btn btn-default" onclick="javascript:getUser();">Sign in</button>
      </form>
@@ -43,13 +43,15 @@
     $.ajax({
         url:BASE_PATH+"/demo/getDemoUserByNamePswd",
         type:"POST",
-        dataType:"JSON",
         data:{
             username:$("#usernameinput").val(),
             password:$("#passwordinput").val(),
         },
         success:function (result) {
-            console.log(result);
+           console.log(result);
+        },
+        error: function(error){
+            console.log(error);
         }
     })
     }

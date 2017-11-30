@@ -17,5 +17,6 @@
     <bean id="demoService" class="com.carlson.demo.rpc.service.impl.DemoServiceImpl"/>
     <dubbo:service interface="com.carlson.demo.rpc.api.IDemoService" ref="demoService" timeout="10000"/>
 
-
+    <bean id="demoAPIService" class="com.carlson.demo.rpc.service.impl.DemoAPIServiceImpl"/>
+    <dubbo:service interface="com.carlson.demo.rpc.api.IDemoAPIService" ref="demoAPIService" timeout="10000"/>
 </beans>

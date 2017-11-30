@@ -1,0 +1,33 @@
+package com.carlson.demo.dao.model;
+
+import java.io.Serializable;
+
+public class DemoPermission implements Serializable{
+    private Integer id;
+    private String permissionName;
+    private String permissionValue;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getPermissionName() {
+        return permissionName;
+    }
+
+    public void setPermissionName(String permissionName) {
+        this.permissionName = permissionName;
+    }
+
+    public String getPermissionValue() {
+        return permissionValue;
+    }
+
+    public void setPermissionValue(String permissionValue) {
+        this.permissionValue = permissionValue;
+    }
+}

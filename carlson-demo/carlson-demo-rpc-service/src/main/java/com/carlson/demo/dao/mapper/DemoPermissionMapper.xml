@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.carlson.demo.dao.mapper.DemoPermissionMapper">
+    <resultMap id = "baseResultMap" type = "com.carlson.demo.dao.model.DemoPermission">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result property = "permissionName" jdbcType="VARCHAR" column = "permissionName"/>
+        <result property = "permissionValue" jdbcType="VARCHAR" column = "permissionValue"/>
+    </resultMap>
+    <sql id="base_column">
+        id,permissionName,permissionValue
+    </sql>
+    <select id = "getDemoPermissionById" resultMap = "baseResultMap" parameterType="com.carlson.demo.dao.model.DemoPermission">
+        SELECT
+        <include refid="base_column"/>
+        FROM tb_demo_permission where id = #{id};
+    </select>
+    <select id="getDemoPermissionByRoleId" resultMap="baseResultMap" parameterType="java.lang.Integer">
+        SELECT
+        <include refid="base_column"/>
+        FROM tb_demo_permission p
+        left join tb_demo_role_permission rp
+        on p.id = rp.permissionId
+        where rp.roleId = #{id};
+    </select>
+</mapper>
