@@ -22,7 +22,6 @@
 </head>
 <body >
 <div class="container" style="position: relative;top: 40%;" align="center">
-    <form>
         <div class="form-group">
             <label for="usernameinput">Username</label>
             <input type="" class="form-control" id="usernameinput" placeholder="Username" style="width: 30%" value="admin">
@@ -31,17 +30,15 @@
             <label for="passwordinput">Password</label>
             <input type="" class="form-control" id="passwordinput" placeholder="Password" style="width: 30%" value="carlson">
         </div>
-     <button class="btn btn-default" onclick="javascript:getUser();">Sign in</button>
-     </form>
+        <button class="btn btn-default" onclick="javascript:getUser();">Sign in</button>
 </div>
 
 <script src="${basePath}/resources/carlson-admin/plugins/jquery.1.12.4.min.js"></script>
 <script src="${basePath}/resources/carlson-admin/plugins/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script>
-    var BASE_PATH = '${basePath}';
     function getUser(){
     $.ajax({
-        url:BASE_PATH+"/demo/getDemoUserByNamePswd",
+        url:"${basePath}/demo/login.do",
         type:"POST",
         data:{
             username:$("#usernameinput").val(),
@@ -49,6 +46,7 @@
         },
         success:function (result) {
            console.log(result);
+           location.href = "${basePath}/manage/index";
         },
         error: function(error){
             console.log(error);

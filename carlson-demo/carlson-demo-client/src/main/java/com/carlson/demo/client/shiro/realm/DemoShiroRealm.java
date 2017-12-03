@@ -46,7 +46,7 @@ public class DemoShiroRealm extends AuthorizingRealm {
                 roleSet.add(role.getRoleName());
                 List<DemoPermission> permissionList = demoApiService.getDemoPermissionByRoleId(role.getId());
                 for (DemoPermission permission : permissionList) {
-                    permissionSet.add(permission.getPermissionName());
+                    permissionSet.add(permission.getPermissionValue());
                 }
             }
         }
